@@ -6,10 +6,11 @@
 ## Checklist
 
 - [ ] I read the whole post
-- [ ] Added a `###` section to `README.md` under the right topic, in the existing format
-- [ ] Summary and takeaways are in my own words and specific
-- [ ] Links work
+- [ ] Added one row to the table in `README.md`
+- [ ] "Why read it" is one specific line, not an adjective
+- [ ] Reused existing tags where they fit
+- [ ] Link works
 
 ## Why this one
 
-<A sentence or two for reviewers: what makes this worth adding?>
+<A sentence for reviewers, if the row doesn't already say it.>
