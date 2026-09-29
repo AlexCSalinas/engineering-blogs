@@ -6,9 +6,8 @@
 ## Checklist
 
 - [ ] I read the whole post
-- [ ] Added `blogs/<company-short-title>.md` from the template
-- [ ] Filled in Why it's worth reading, Summary, and Key takeaways in my own words
-- [ ] Added rows to both tables in `README.md`
+- [ ] Added a `###` section to `README.md` under the right topic, in the existing format
+- [ ] Summary and takeaways are in my own words and specific
 - [ ] Links work
 
 ## Why this one

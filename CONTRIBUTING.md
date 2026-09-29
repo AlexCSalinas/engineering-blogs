@@ -1,20 +1,32 @@
 # Contributing
 
-The bar for this repo is simple: **you read the post, and you can say something specific about it.** A link with a generated summary attached is worse than no link, because it costs the next person time to find that out.
+Everything lives in [README.md](README.md). Adding a post means editing that one file — there are no per-post files.
 
-## Adding a post
+The bar is simple: **you read the post, and you can say something specific about it.** A link with a generated summary attached is worse than no link, because it costs the next person time to find that out.
 
-1. Copy the template:
-   ```sh
-   cp blogs/_TEMPLATE.md blogs/company-short-title.md
-   ```
-   Name the file `company-short-title.md` — lowercase, hyphens, no dates in the filename.
+## How
 
-2. Fill it in. All header fields are required except `Topics`, which should still have two or three.
+1. Open `README.md` and find the topic section your post fits. Add a new `##` section if none do, and link it in the **Jump to** line at the top.
+2. Paste the skeleton below at the end of that section and fill it in.
+3. Open a PR titled with the post title. One post per PR, so they're easy to discuss and easy to revert.
 
-3. Add a row to **both** tables in [README.md](README.md): the main index and the by-topic list. Keep the index sorted by nothing in particular for now — newest at the bottom is fine.
+## Skeleton
 
-4. Open a PR with the post title as the PR title. One post per PR, so they're easy to discuss and easy to revert.
+```markdown
+### <Exact post title>
+
+**[domain.com](<url>)** · <Company> · <Author(s)> · <YYYY-MM-DD>
+`tag-one` `tag-two` `tag-three` · added by @<your-handle>
+
+<Two or three sentences: what does this post give you that a dozen others on the
+same topic don't? Be specific and be honest — "great read" helps nobody.>
+
+- **<Idea>** — <what it is and why it matters>
+- **<Idea>** — <...>
+- **<Idea>** — <...>
+```
+
+Keep entries separated by a `---` rule, same as the existing ones.
 
 ## What belongs here
 
@@ -26,16 +38,17 @@ The bar for this repo is simple: **you read the post, and you can say something 
 
 - Marketing posts with an architecture diagram stapled on.
 - Tutorials and getting-started guides. Useful, wrong repo.
-- Conference talks and papers as primary entries — link them under **Notes** on a related post instead.
+- Conference talks and papers as primary entries — link them as a bullet on a related post instead.
 - Posts you haven't read.
 
 ## Style
 
-- **Summary** is a paragraph in your own words. If it reads like the post's own abstract, rewrite it.
-- **Key takeaways** are specific. `Uses a custom storage layer` is not a takeaway; `built LedgerStore in-house because off-the-shelf DBs couldn't give tamper-evident records under their regulatory constraints` is.
-- Include real numbers when the post gives them, and say they're the post's claims rather than measured facts.
+- Write the summary in your own words. If it reads like the post's own abstract, rewrite it.
+- Takeaways are specific. `Uses a custom storage layer` is not a takeaway; `built LedgerStore in-house because off-the-shelf DBs couldn't give tamper-evident records under their regulatory constraints` is.
+- Include real numbers when the post gives them, and frame them as the post's claims rather than measured facts.
 - Say what the post gets wrong or skips. That's the most valuable part of an entry and the part you can't get anywhere else.
+- Three to five bullets. If you need more, the post deserves its own writeup somewhere else.
 
 ## Reviewing
 
-Anyone with write access can merge. Look for: does the summary match the post, are the takeaways specific, do the links work. Don't bikeshed prose.
+Anyone with write access can merge. Check that the summary matches the post, the takeaways are specific, and the links work. Don't bikeshed prose.
