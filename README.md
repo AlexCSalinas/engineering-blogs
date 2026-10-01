@@ -10,6 +10,7 @@ One row per post. Adding one means adding a row: see [Adding a post](#adding-a-p
 | [GenRec: Towards LLM-Native Recommendation at Netflix](https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3) | Netflix | `ml-systems` `recsys` `llm-serving` | 2026-07-30 |
 | [Zero-Sum by Design: 10 Years of Uber's Payments Platform](https://www.uber.com/us/en/blog/ubers-payments-platform/) | Uber | `distributed-systems` `ledgers` `correctness` | 2026-08-06 |
 | [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages) | Discord | `distributed-systems` `databases` `migrations` | 2023-03-06 |
+| [Maxjourney: Pushing Discord's Limits with a Million+ Online Users in a Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server) | Discord | `distributed-systems` `elixir` `performance` | 2023-10-25 |
 
 ## Adding a post
 
