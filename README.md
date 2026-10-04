@@ -12,6 +12,7 @@ One row per post. Adding one means adding a row: see [Adding a post](#adding-a-p
 | [How Discord Stores Trillions of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages) | Discord | `distributed-systems` `databases` `migrations` | 2023-03-06 |
 | [Maxjourney: Pushing Discord's Limits with a Million+ Online Users in a Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server) | Discord | `distributed-systems` `elixir` `performance` | 2023-10-25 |
 | [Building Shared Memory for AI Agents in Notion](https://www.notion.com/blog/building-shared-memory-for-ai-agents-in-notion) | Notion | `ml-systems` `ai-agents` | 2026-08-18 |
+| [Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem](https://machinelearning.apple.com/research/homomorphic-encryption) | Apple | `ml-systems` `cryptography` `privacy` | 2024-10-24 |
 
 ## Adding a post
 
